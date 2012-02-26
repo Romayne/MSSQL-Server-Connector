@@ -1,0 +1,323 @@
+a {
+	color: #000000;
+}
+
+a img {
+	border: 0px;
+}
+
+body {
+	/*background: url("../images/gradient-container-bg.jpg");
+	background-color: #C7D7E6;
+	background-repeat: repeat-x;*/
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 10pt;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.clear {
+	clear: both !important;
+	padding-top: 10px;
+}
+
+div#content {
+	background-color: #FFFFFF;
+	background-image: none;	
+	border: 1px solid #9FACB8;
+	clear: both;
+	margin: 0 auto;
+	min-height: 380px;
+	overflow: hidden;	
+	text-align: center;
+	width: 981px;
+}
+
+div#content a, div#floating_login a {
+	color: #000000;
+}
+
+div#content a:hover, div#floating_login a:hover {
+	color: #8EB9DF;
+}
+
+div#content p {
+	clear: both;
+}
+
+div#content_left, div#content_right {
+	float: left;
+}
+
+div#content_left {
+	width: 530px;
+}
+
+div#content_right {
+	margin-left: 30px;
+	width: 370px;
+}
+
+div#content_left a.quick_application, div#content_right a.quick_application {
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	display: block;
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 190px;	
+}
+
+div#content_left a.quick_application:hover, div#content_right a.quick_application:hover {
+	color: #000000;
+}
+
+div#footer {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+div#footer a {
+	margin-left: 10px;
+}
+
+div.homepage form.register {
+	width: 360px;
+}
+
+div.homepage div.register_caption {
+	display: none;
+}
+
+div.hr {
+	border-top: 1px solid #9FACB8;
+	height: 2px;
+	margin-top: 20px;
+}
+
+div.register_block {
+	clear: both;
+	display: block;
+	height: 40px;
+	margin: 4px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+div.register_caption {
+	border-bottom: 1px solid #EDF2F7;
+	float: right;
+	font-weight: bold;
+	padding: 10px;
+	width: 425px;
+}
+
+div.register_left, div.register_right {
+	float: left;
+}
+
+div.register_right {
+	margin-left: 10px;
+}
+
+div.text {
+	margin: 10px;
+	text-align: left;
+}
+
+.error {
+	color: #FF0000;
+}
+
+form.register {
+	margin-top: 15px;
+}
+
+form.register input.text {
+	width: 170px !important;
+}
+
+form.register input.short {
+	width: 60px !important;
+}
+
+form.register input.shortest {
+	width: 30px !important;
+}
+
+form.register input.wider {
+	width: 260px !important;
+}
+
+form.sign_in input.button, form.register input.button {
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: bold;
+	height: 20px;
+	position: relative;
+	top: 1px;
+	width: 50px;
+}
+
+form.sign_in input.text, form.register input.text {
+	background-color: #F5F5F5;
+	border: 1px solid #D2E3F2;
+	font-family: Tahoma;
+	font-size: 8pt;
+	height: 20px;
+	margin-top: 2px;
+	padding: 2px;
+	width: 195px;
+}
+
+form.sign_in label, form.register label {
+	display: block;
+	font-weight: bold;
+}
+
+form.register select {
+	border: 1px solid #D2E3F2;
+	font-family: Tahoma;
+	font-size: 8pt;
+	height: 20px;
+	margin-top: 2px;
+	padding: 2px;
+}
+
+.hidden {
+	display: none;
+}
+
+.hidden_error {
+	color: #FF0000 !important;
+	display: block !important;
+}
+
+.hidden_success {
+	display: block !important;
+}
+
+.justify {
+	text-align: justify !important;
+}
+
+table {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+
+table.list {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+
+table.list tbody tr td {
+	padding: 2px;
+	vertical-align: top;
+}
+
+table.list thead {
+	background-color: #F2F2F2;
+	color: #4C4C4C;
+	font-weight: normal;
+}
+
+table.list thead tr th {
+	padding: 2px;
+}
+
+.visible {
+	overflow: visible !important;
+}
+
+.wide {
+	margin-right: 10px !important;
+	width: 100px !important;
+}
+
+.wider_button {
+	margin-right: 10px !important;
+	width: 120px !important;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.break {
+	clear: both;
+}
+
+.interest_list_headings {
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.left {
+	clear: both !important;
+	float: left;
+	padding-top: 10px;
+}
+
+.right {
+	clear: both !important;
+	float: right;
+	padding-top: 10px;
+}
+
+.width_65 {
+	width: 55px;
+}
+
+.width_200 {
+	width: 190px;
+}
+
+.width_340 {
+	width: 330px;
+}
+
+.vehicle_input {
+	border: 1px solid #9FACB8;
+	float: left;
+	line-height: 22px;
+	padding: 5px;
+}
+
+.vehicle_inputs {
+	clear: both;
+	padding: 5px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+div#vehicles {
+	float: right;
+	overflow: visible;
+	width: 761px;
+}
+
+.bg_alt {
+	background-color: #EFEFEF;
+}
+
+.bg_white {
+	background-color: #FFFFFF;
+}
+
+

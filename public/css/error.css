@@ -1,0 +1,15 @@
+body {
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 8pt;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.error, .error a {
+	color: #FF0000;
+}
+
+.text {
+	padding: 15px;
+}
