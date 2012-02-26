@@ -58,7 +58,7 @@
 		    if (!empty($error_message) && $result === false)
 			{
 				if (strtoupper(trim($this->environment)) == "DEVELOPMENT")
-					return $this->sql_error("Query Error - " .$queryString);
+					return $this->sqlError("Query Error - " .$queryString);
 				else
 					return false;
 			}
@@ -217,7 +217,7 @@
 		*
 		* @param  string             $message a copy of the error message from the calling function (usually $this->query( ))
 		*/
-		private function sql_error($message)
+		private function sqlError($message)
 		{
 		    $error  = "MSSQL SERVER	 : " .$message ."\n";
 		    $error .= "Error Message : " .$this->errorMessages() ."\n";
